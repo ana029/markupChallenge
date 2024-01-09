@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial, Helvetica, sans-serif;
+}
+body{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0px ;
+    max-width: 1600px ;
+}
+
+div.logoandmenu > div{
+    width: 100% ;
+}
+
+div.logobox{
+    background-color: #458FF6 ;
+    width: 10px;
+    height: 10px;
+    color:white;
+    padding:10px ;
+    border-radius: 50%; 
+    display: inline-block;
+}
+#logotext{
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+ul, li {
+    list-style-type: none;
+    color: gray;
+    display: inline-block;   
+} 
+li{
+    padding:10px;
+}
+li:hover{
+    color: #1F1534;
+    font-weight: bold;
+}
+.headerText {
+    display: flex;
+  }
+  
+.headerText> div {
+    margin: 10px;
+    padding: 20px;
+    width:40%;
+  }
+  h1{
+    font-size:48px;
+  }
