@@ -11,7 +11,7 @@ body{
     margin-bottom: 0px ;
     max-width: 1600px ;
 }
-header, .ourServices, .healthcareProviders, .downoadApp, .customerSaying {
+header, .ourServices, .healthcareProviders, .downoadApp, .customerSaying, .latesArticle {
     margin-bottom: 192px;
 }
 
@@ -34,16 +34,19 @@ div.logobox{
     font-weight: bold;
     color: #FFFFFF;
 }
-
-ul, li {
+ul, li{
     list-style-type: none;
+}
+
+ul.header, li.header {
     color: gray;
     display: inline-block;   
 } 
-li{
+
+li.header{
     padding:10px;
 }
-li:hover{
+li.header:hover{
     color: #1F1534;
     font-weight: bold;
 }
@@ -57,26 +60,26 @@ div.headerText {
     width:40%;
   }
 
-  h1{
+h1{
     font-size:48px;
     margin-top: 40px;
     margin-bottom: 25px;
-  }
-  h2{
+}
+h2{
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     text-align: center;
     margin-bottom: 61px;
-  }
-  h3{
+}
+h3{
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     margin-top: 22px;
     margin-bottom: 10px;
-  }
-  h4{
+}
+h4{
     color: white;
     padding-top: 65px;
     padding-bottom: 70px;
@@ -85,48 +88,65 @@ div.headerText {
     font-style: normal;
     font-weight: 700;
     line-height: 48px;
-  }
+}
+h5{
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
 
-  p.text{
+p.text{
     color: #7D7987;
     font-style: normal;
     font-weight: 300;
-  }
-  p.headerInformation{
+    line-height: 28px;
+}
+p.headerInformation{
     font-size: 21px;
     margin-bottom: 45px;
-  }
-  p.services{
+}
+p.services{
     font-size: 21px;
     text-align: center;
     margin-bottom: 50px;
     line-height: 28px;
-  }
-  button {
+}
+button {
     width: 200px;
     height: 56px;
     border-radius: 55px;
-  }
-  #blubutton{
+}
+#blubutton{
     background-color: #458FF6;
     color:#FFFFFF;
     border: 0px;
-  }
-  button.whitebuttons{
+}
+button.whitebuttons{
     border-color: #458FF6;
     background-color: #FFFFFF;
     color:#458FF6;
-  }
-  button.whitebuttons:hover{
+}
+button.readmore{
+    margin-top: 20px;
+    border: 0px;
+    background-color: white;
+    color:#458FF6;
+
+
+}
+button.whitebuttons:hover{
     background-color:#458FF6;
     color:#FFFFFF;
-  }
+}
 
-  .ourServiceBox1 {
+.ourServiceBox1 {
     display: flex;
-  }
+}
   
-  .ourServiceBox1 > div {
+.ourServiceBox1 > div {
     background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
@@ -134,12 +154,12 @@ div.headerText {
     width: 350px;
     height: 354px;
     box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
-  }
-  .ourServiceBox2 {
+}
+.ourServiceBox2 {
     display: flex;
-  }
+}
   
-  .ourServiceBox2 > div {
+.ourServiceBox2 > div {
     background-color: #FFFFFF;
     border-radius: 10px;
     margin: 10px;
@@ -147,71 +167,89 @@ div.headerText {
     width:350px;
     height: 354px;
     box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
-  }
-  img.serviceframe{
+}
+img.serviceframe{
     margin-top: 54px;
-  }
+}
 
-  .healthcareProviders {
+.healthcareProviders {
     display: flex;
-  }
+}
   
-  .healthcareProviders> div {
+.healthcareProviders> div {
     margin: 10px;
     padding: 20px;
     width: 650px;
     height: 477px;
-  }
-  .healthcareInfo{
+}
+.healthcareInfo{
     font-size: 18px;
     margin-bottom: 50px;
-  }
+}
   
-  .downoadApp {
+.downoadApp {
     display: flex;
-  }
+}
   
-  .downoadApp> div {
+.downoadApp> div {
     margin: 10px;
     padding: 20px;
     width: 650px;
     height: 477px;
-  }
-  .customerSaying{
+}
+.customerSaying{
     width: 1120px;
     height: 425px;
     border-radius: 24px;
     background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
-  }
-  .customer {
+}
+.customer {
     display: flex;
-  }
+}
   
-  .customer> div {
+.customer> div {
     margin: 10px;
     padding: 20px;
     width: 650px;
     height: 477px;
-  }
-  .boxforImg{
+}
+.boxforImg{
     width: 120px;
     height: 120px;
     border-radius: 50%;
     border: 2px solid white ;
     display: inline-block;
     background-image: url("image1customer.png");
-  }
-  #customerText{
+}
+#customerText{
     color: white;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-  }
-  
-  .imgtext{
-    color:white;
-    display: inline-block;
+}
+
+.imgtext{
+    color:white ;
     text-align: center;
-  }
+}
+.imgtext.name{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.latesArticle {
+    display: flex;
+}
+  
+.latesArticle> div {
+    margin: 10px;
+    padding: 20px;
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+}
  
