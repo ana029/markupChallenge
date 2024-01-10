@@ -15,9 +15,13 @@ header, .ourServices, .healthcareProviders, .downoadApp, .customerSaying, .lates
     margin-bottom: 192px;
 }
 
-div.logoandmenu > div{
+div.logoandmenu {
     width: 100% ;
-    
+    display: flex;
+    align-items: stretch;
+}
+div.logoandmenu div>{
+    width: 20%;
 }
 
 div.logobox{
@@ -29,13 +33,25 @@ div.logobox{
     border-radius: 50%; 
     display: inline-block;
 }
+div.logobox.footer {
+    background-color: white;
+}
 
 #logotext{
     font-weight: bold;
     color: #FFFFFF;
+    line-height: 18px;
 }
+#logotextfooter{
+    font-weight: bold;
+    color:#5B9BF3 ;
+    line-height: 18px;
+  }
 ul, li{
     list-style-type: none;
+}
+ul.header{
+    margin-left: 30%;
 }
 
 ul.header, li.header {
@@ -270,3 +286,29 @@ footer{
     font-weight: 300;
     line-height: 38px;
   }
+#logoforfooter{
+    margin-top: 12px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+#logotextfooter2{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#footerleft{
+    padding-left: 10%;
+    padding-top: 90px;
+}
+#trafpty{
+    padding-top: 30px;
+    font-size: 16px;
+    line-height: 28px
+}
+.footerheader{
+    padding-top: 90px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+}
