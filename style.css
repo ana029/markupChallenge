@@ -79,7 +79,7 @@ div.headerText {
   h4{
     color: white;
     padding-top: 65px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -194,10 +194,24 @@ div.headerText {
     height: 477px;
   }
   .boxforImg{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    border-color: white;
-    background-color: red;
+    border: 2px solid white ;
+    display: inline-block;
+    background-image: url("image1customer.png");
+  }
+  #customerText{
+    color: white;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .imgtext{
+    color:white;
+    display: inline-block;
+    text-align: center;
   }
  
