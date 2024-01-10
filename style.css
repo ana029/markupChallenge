@@ -144,6 +144,11 @@ button.whitebuttons{
     border-color: #458FF6;
     background-color: #FFFFFF;
     color:#458FF6;
+    margin-left: 25%;
+}
+button.whitebuttons.learnmore{
+    margin-left: 40%;
+    margin-top: 20px;
 }
 button.readmore{
     margin-top: 20px;
@@ -273,19 +278,21 @@ footer{
  
 .footerInput {
     height: 432px;
+    width: 100%;
     display: flex;
-    align-items: stretch;
+    align-items: flex-start;
     background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
   }
   
-  .footerInput > div {
+.footerInput > div {
     color: white;
+    width: 10%;
     margin: 10px;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 38px;
-  }
+}
 #logoforfooter{
     margin-top: 12px;
     margin-bottom: 8px;
@@ -298,8 +305,9 @@ footer{
     line-height: normal;
 }
 #footerleft{
-    padding-left: 10%;
+    padding-left: 5%;
     padding-top: 90px;
+    padding-right: 5%;
 }
 #trafpty{
     padding-top: 30px;
