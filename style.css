@@ -3,6 +3,7 @@
     padding: 0;
     font-family: arial, Helvetica, sans-serif;
 }
+
 body{
     margin-top: 10px;
     margin-left: 5%;
@@ -10,9 +11,13 @@ body{
     margin-bottom: 0px ;
     max-width: 1600px ;
 }
+header, .ourServices, .healthcareProviders, .downoadApp, .customerSaying {
+    margin-bottom: 192px;
+}
 
 div.logoandmenu > div{
     width: 100% ;
+    
 }
 
 div.logobox{
@@ -24,6 +29,7 @@ div.logobox{
     border-radius: 50%; 
     display: inline-block;
 }
+
 #logotext{
     font-weight: bold;
     color: #FFFFFF;
@@ -41,7 +47,7 @@ li:hover{
     color: #1F1534;
     font-weight: bold;
 }
-.headerText {
+div.headerText {
     display: flex;
   }
   
@@ -50,6 +56,148 @@ li:hover{
     padding: 20px;
     width:40%;
   }
+
   h1{
     font-size:48px;
+    margin-top: 40px;
+    margin-bottom: 25px;
   }
+  h2{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 61px;
+  }
+  h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-bottom: 10px;
+  }
+  h4{
+    color: white;
+    padding-top: 65px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+  }
+
+  p.text{
+    color: #7D7987;
+    font-style: normal;
+    font-weight: 300;
+  }
+  p.headerInformation{
+    font-size: 21px;
+    margin-bottom: 45px;
+  }
+  p.services{
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 28px;
+  }
+  button {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+  }
+  #blubutton{
+    background-color: #458FF6;
+    color:#FFFFFF;
+    border: 0px;
+  }
+  button.whitebuttons{
+    border-color: #458FF6;
+    background-color: #FFFFFF;
+    color:#458FF6;
+  }
+  button.whitebuttons:hover{
+    background-color:#458FF6;
+    color:#FFFFFF;
+  }
+
+  .ourServiceBox1 {
+    display: flex;
+  }
+  
+  .ourServiceBox1 > div {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 350px;
+    height: 354px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+  }
+  .ourServiceBox2 {
+    display: flex;
+  }
+  
+  .ourServiceBox2 > div {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+    width:350px;
+    height: 354px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+  }
+  img.serviceframe{
+    margin-top: 54px;
+  }
+
+  .healthcareProviders {
+    display: flex;
+  }
+  
+  .healthcareProviders> div {
+    margin: 10px;
+    padding: 20px;
+    width: 650px;
+    height: 477px;
+  }
+  .healthcareInfo{
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  
+  .downoadApp {
+    display: flex;
+  }
+  
+  .downoadApp> div {
+    margin: 10px;
+    padding: 20px;
+    width: 650px;
+    height: 477px;
+  }
+  .customerSaying{
+    width: 1120px;
+    height: 425px;
+    border-radius: 24px;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  }
+  .customer {
+    display: flex;
+  }
+  
+  .customer> div {
+    margin: 10px;
+    padding: 20px;
+    width: 650px;
+    height: 477px;
+  }
+  .boxforImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: white;
+    background-color: red;
+  }
+ 
